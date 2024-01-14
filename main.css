@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mainWindow{
+    border: 1px solid red;
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(27, 109, 181);
+}
+.mainForm{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(109, 165, 213);
+}
+.delAnd{
+    display: flex;
+    border: 1px solid red;
+    height: 50px;
+    align-items: center;
+}
+.delete{
+    margin-left: 40px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    color: black;
+    background-color: red;
+
+}
+.delAnd output{
+    display: flex;
+    justify-content: end;
+    height: 45px;
+    width: 260px;
+    align-items: center;
+    font-size: 30px;
+}
+.buttonsNumAndAction{
+    border: 1px solid red;
+    display: flex;
+    height: 300px;
+}
+.butNum{
+    display: flex;
+    border: 1px solid red;
+    width: 290px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+button{
+        box-shadow: 5px 5px 5px gray;
+}
+.butNum button{
+    height: 45px;
+    width: 45px;
+    margin-left: 40px;
+    display: inline-block;
+    background-color: blue;
+    color: aliceblue;
+}
+.Action{
+    display: flex;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50px;
+}
+.butNum :nth-child(12){
+    background-color: yellow;
+    color: black;
+}
+.Action button{
+    height: 45px;
+    width: 45px;
+    background-color: yellow;
+    color: black;
+}
